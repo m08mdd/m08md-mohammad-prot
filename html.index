@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محمد شامل | Mohammed Shamil — Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio of Mohammed Shamil, Web & Mobile Developer." />
+  <meta property="og:title" content="محمد شامل | Mohammed Shamil" />
+  <meta property="og:description" content="Web & Mobile Developer Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/rtl.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo" data-i18n="logo">م.ش</a>
+      <button class="nav-toggle" id="navToggle" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="nav.about">من أنا</a>
+        <a href="#education" data-i18n="nav.education">التحصيل الدراسي</a>
+        <a href="#skills" data-i18n="nav.skills">المهارات</a>
+        <a href="#experience" data-i18n="nav.experience">الخبرات</a>
+        <a href="#contact" data-i18n="nav.contact">التواصل</a>
+      </nav>
+      <button class="lang-toggle" id="langToggle" aria-label="toggle language">AR | EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content fade-up">
+        <div class="profile-ring">
+          <img src="assets/images/profile.jpg" alt="Mohammed Shamil" loading="lazy" />
+        </div>
+        <h1 data-i18n="hero.name">محمد شامل / Mohammed Shamil</h1>
+        <p class="tagline" data-i18n="hero.tagline">مطور ويب وتطبيقات موبايل / Web & Mobile Developer</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container card fade-up">
+        <h2 data-i18n="about.title">من أنا</h2>
+        <p data-i18n="about.text">مطور شغوف بتطوير حلول تقنية مبتكرة في مجال الويب والموبايل. أسعى دائماً لتقديم تجارب رقمية عالية الجودة تجمع بين الأداء والجماليات.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="education.title">التحصيل الدراسي</h2>
+        <div class="timeline">
+          <article class="timeline-item card fade-up">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3 data-i18n="education.items.0.degree">بكالوريوس / Bachelor's Degree</h3>
+            <p data-i18n="education.items.0.field">علوم الحاسوب / Computer Science</p>
+            <p data-i18n="education.items.0.institution">جامعة المعارف / Al-Maarif University</p>
+            <span class="status" data-i18n="education.items.0.status">✅ Completed</span>
+          </article>
+          <article class="timeline-item card fade-up">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3 data-i18n="education.items.1.degree">دبلوم / Diploma</h3>
+            <p data-i18n="education.items.1.field">تقنيات علوم الحاسوب / Computer Science Technologies</p>
+            <p data-i18n="education.items.1.institution">المعهد التقني الأنبار / Anbar Technical Institute</p>
+            <span class="status" data-i18n="education.items.1.status">✅ Completed</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="skills.title">مهاراتي</h2>
+        <div class="skills-grid">
+          <div class="card fade-up">
+            <h3 data-i18n="skills.web.title">تطوير الويب</h3>
+            <ul>
+              <li>HTML5, CSS3, JavaScript, React.js / Vue.js</li>
+              <li>Node.js / PHP / Python</li>
+              <li>MySQL, MongoDB</li>
+            </ul>
+          </div>
+          <div class="card fade-up">
+            <h3 data-i18n="skills.mobile.title">تطوير الموبايل</h3>
+            <ul>
+              <li>Flutter / React Native / Android</li>
+            </ul>
+          </div>
+          <div class="card fade-up">
+            <h3 data-i18n="skills.tools.title">أدوات أخرى</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="experience.title">الشهادات والخبرات</h2>
+        <div class="exp-grid">
+          <article class="card fade-up">
+            <h3 data-i18n="experience.work.title">الخبرة</h3>
+            <p data-i18n="experience.work.placeholder">أضف تفاصيل الخبرة العملية: المسمى الوظيفي، الشركة، المدة، والمسؤوليات.</p>
+          </article>
+          <article class="card fade-up">
+            <h3 data-i18n="experience.cert.title">الشهادات</h3>
+            <p data-i18n="experience.cert.placeholder">أضف الشهادات: اسم الشهادة، الجهة المانحة، السنة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container card contact-card fade-up">
+        <h2 data-i18n="contact.title">تواصل معي</h2>
+        <a class="email-link" href="mailto:alheety330@gmail.com">
+          <i class="fa-solid fa-envelope"></i> alheety330@gmail.com
+        </a>
+        <form class="contact-form" onsubmit="event.preventDefault();">
+          <input type="text" data-i18n-placeholder="contact.form.name" placeholder="الاسم" />
+          <input type="email" data-i18n-placeholder="contact.form.email" placeholder="البريد الإلكتروني" />
+          <textarea rows="4" data-i18n-placeholder="contact.form.message" placeholder="رسالتك"></textarea>
+          <button type="submit" data-i18n="contact.form.send">إرسال</button>
+        </form>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/lang.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
