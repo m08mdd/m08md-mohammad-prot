@@ -1,0 +1,22 @@
+{
+  "ar": {
+    "hero": {
+      "name": "محمد شامل / Mohammed Shamil",
+      "tagline": "مطور ويب وتطبيقات موبايل / Web & Mobile Developer"
+    },
+    "about": {
+      "title": "من أنا",
+      "text": "مطور شغوف بتطوير حلول تقنية مبتكرة في مجال الويب والموبايل. أسعى دائماً لتقديم تجارب رقمية عالية الجودة تجمع بين الأداء والجماليات."
+    }
+  },
+  "en": {
+    "hero": {
+      "name": "Mohammed Shamil",
+      "tagline": "Web & Mobile Developer"
+    },
+    "about": {
+      "title": "About Me",
+      "text": "A passionate developer focused on building innovative web and mobile solutions. I strive to deliver high-quality digital experiences that combine performance and aesthetics."
+    }
+  }
+}
