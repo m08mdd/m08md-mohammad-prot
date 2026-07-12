@@ -1,0 +1,17 @@
+html[dir="rtl"] body {
+  font-family: "Cairo", sans-serif;
+}
+
+html[dir="ltr"] body {
+  font-family: "Inter", sans-serif;
+}
+
+html[dir="ltr"] .timeline::before {
+  left: 18px;
+  right: auto;
+}
+
+html[dir="ltr"] .timeline-item {
+  margin-left: 2rem;
+  margin-right: 0;
+}
